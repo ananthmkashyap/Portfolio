@@ -23,7 +23,7 @@ const greeting = {
   username: "Kashyap's Profile",
   title: "Hi all, I'm Ananth Mahesh Kashyap",
   subTitle: emoji(
-    "A dedicated  ☁️ Cloud DevOps Engineer ♾️ with expertise in architecting and automating scalable infrastructure, leveraging tools like Docker, Kubernetes, Terraform, and CI/CD pipelines , and optimizing cloud environments for seamless deployment and performance 🚀."
+    "A dedicated  ☁️ Cloud DevOps Engineer ☁️ with expertise in architecting and automating scalable infrastructure, leveraging tools like Docker, Kubernetes, Terraform, and CI/CD pipelines , and optimizing cloud environments for seamless deployment and performance 🚀."
   ),
   resumeLink: 
     "https://drive.google.com/file/d/1xKxeN3338eip93uE-0uqWWPpemd0AgNZ/view?usp=sharing", // Set to empty to hide the button
