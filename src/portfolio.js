@@ -20,13 +20,13 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Ananth M Kashyap",
-  title: "Hi all, I'm Ananth",
+  username: "Kashyap's Profile",
+  title: "Hi all, I'm Ananth Mahesh Kashyap",
   subTitle: emoji(
-    "A dedicated Cloud DevOps Engineer 🚀 with expertise in architecting and automating scalable infrastructure, leveraging tools like Docker, Kubernetes, Terraform, and CI/CD pipelines, and optimizing cloud environments for seamless deployment and performance."
+    "A dedicated  ☁️ Cloud DevOps Engineer ♾️ with expertise in architecting and automating scalable infrastructure, leveraging tools like Docker, Kubernetes, Terraform, and CI/CD pipelines , and optimizing cloud environments for seamless deployment and performance 🚀."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: 
+    "https://drive.google.com/file/d/1xKxeN3338eip93uE-0uqWWPpemd0AgNZ/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -45,15 +45,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "PASSIONATE CLOUD DEVOPS ENGINEER WHO BUILDS SCALABLE AND RESILIENT INFRASTRUCTURE",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    "⚡ Design and implement scalable, secure, and highly available cloud infrastructure",
+    "⚡ Automate deployment pipelines using CI/CD tools like Jenkins, GitHub Actions, or GitLab CI",
+    "⚡ Monitor and optimize system performance with tools like Prometheus, Grafana, and CloudWatch",
+    "⚡ Containerize and orchestrate applications using Docker and Kubernetes",
+    "⚡ Implement Infrastructure as Code (IaC) using Terraform or AWS CloudFormation",
+    "⚡ Ensure high reliability and disaster recovery with backup and failover strategies",
+    "⚡ Integrate third-party services and APIs across cloud platforms like AWS and Azure"
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -62,39 +62,47 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Microsoft Azure",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "fas fa-cloud"
     },
     {
       skillName: "Amazon Web Services",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "Terraform",
-      fontAwesomeClassname: "fab fa-sass"
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "GitHub Actions", 
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "CICD",
-      fontAwesomeClassname: "fab fa-react"
+      fontAwesomeClassname: "fas fa-infinity"
     },
     {
       skillName: "Kubernetes",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "fas fa-network-wired"
     },
     {
       skillName: "Powershell",
-      fontAwesomeClassname: "fab fa-swift"
+      fontAwesomeClassname: "fas fa-terminal"
     },
     {
       skillName: "Python",
-      fontAwesomeClassname: "fab fa-npm"
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "Docker",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "Confluence",
+      fontAwesomeClassname: "fab fa-confluence"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -113,7 +121,7 @@ const educationInfo = {
     },
     {
       schoolName: "Dr. Ambedkar Institute of Technology",
-      logo: require("./assets/images/dr.ait_logo.png"),
+      logo: require("./assets/images/dr.ait_logo.jpg"),
       subHeader: "Bachelor of Technology in Electronics and Communication",
       duration: "September 2016 - September 2020",
     }
@@ -130,7 +138,7 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "AMazon Web Services (AWS)",
+      Stack: "Amazon Web Services (AWS)",
       progressPercentage: "60%"
     },
     {
@@ -149,7 +157,7 @@ const workExperiences = {
     {
       role: "Master Thesis Student",
       company: "Bosch Rexroth",
-      companylogo: require("./assets/images/Logo_of_Bosch_Rexroth_AG.png"),
+      companylogo: require("./assets/images/bosch.jpg"),
       date: "December 2024 – Present",
       descBullets: [
         "Title: Evaluating Cloud-Native Approaches for a Knowledge Synchronization System:A Comparative Analysis Across Various Cloud Deployment Types",
@@ -158,7 +166,7 @@ const workExperiences = {
     {
       role: "Cloud DevOps Engineer",
       company: "Bosch Rexroth",
-      companylogo: require("./assets/images/Logo_of_Bosch_Rexroth_AG.png"),
+      companylogo: require("./assets/images/bosch.jpg"),
       date: "May 2024 – Nov 2024",
       descBullets: [
         "Automated the process of deploying architecture diagrams to confluence with GitHub Actions.",
@@ -210,12 +218,12 @@ const bigProjects = {
     {
       //image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Kubernetes-driven ML Workloads: Metrics for Optimization",
-      descBullets: [
-        "Researched on HW and SW based tools used to measure power consumption of client workloads.",
-        "Elaborate research on Kubernetes Efficient Power Level Exporter (KEPLER) which uses e-BPF and ML models to estimate power consumption at K8s pod/container level.",
-        "Implemented Kepler on GPU accelerated Minikube K8s Cluster having access to NVIDIA GPU.",
-        "Trained CNN and Siamese Network models on the cluster and analyzed power metrics exported by Kepler using Grafana.",
-        "Patterns in power consumption metrics of the ML models were studied in order to decrease the power consumption of the workload."
+      projectDesc: "Research was conducted on hardware and software-based tools for measuring power consumption of client workloads, with a detailed focus on the Kubernetes Efficient Power Level Exporter (KEPLER), which employs eBPF and machine learning models to estimate power usage at the Kubernetes pod and container level. KEPLER was implemented on a GPU-accelerated Minikube Kubernetes cluster with access to NVIDIA GPUs. Convolutional Neural Network (CNN) and Siamese Network models were trained on the cluster, and power metrics exported by KEPLER were analyzed using Grafana. Patterns in the power consumption metrics of the machine learning models were studied to identify strategies for reducing the workload’s power consumption.",
+      footerLink: [ 
+        {
+          name: "Project_Repo",
+          url: "https://github.com/ananthmkashyap/Research_Thesis"
+        }
       ]
     },
     {
@@ -237,57 +245,33 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+      title: "Deutsch al Fremdsprache A1.1",
+      image: require("./assets/images/Uni-stuttgart_logo.webp"),
+      imageAlt: "Deutsch al Fremdsprache",
+      footerLink: [ 
+        { name: "Certification", url: "https://www.icloud.com/iclouddrive/021lDpt5JEy8acGTLppzEx7IA#Deutsch%5Fals%5FFremdsprahce%5FA1.1" }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
+      title: "Deutsch al Fremdsprache A1.2",
+      image: require("./assets/images/Uni-stuttgart_logo.webp"),
+      imageAlt: "Deutsch al Fremdsprache",
+      footerLink: [ 
+        { name: "Certification", url: "https://www.icloud.com/iclouddrive/042BWR4c2vlldEvUw95RsGUgA#Deutsch%5Fals%5FFremdsprache%5FA1.2" }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+      title: "Infrastructure Automation with Terraform",
+      image: require("./assets/images/Udemy-Logo.webp"),
+      imageAlt: "IAC with Terraform",
+      footerLink: [ 
+        { name: "Certification", url: "https://www.udemy.com/certificate/UC-850afdf6-5db9-4dae-805b-31ed4578c8ff/" }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-/*
+
 // Blogs Section
 
 const blogSection = {
@@ -309,7 +293,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -328,7 +312,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -341,9 +325,9 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
-*/
+
 // Resume Section
 const resumeSection = {
   title: "Resume",
@@ -362,12 +346,12 @@ const contactInfo = {
 };
 
 // Twitter Section
-/*
+
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
-*/
+
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
