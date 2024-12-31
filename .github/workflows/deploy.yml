@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main # Use 'main' as the default branch
+      - master # Use 'main' as the default branch
   schedule:
     - cron: "0 12 * * 1" # Run every Monday at 12:00 PM UTC
 
