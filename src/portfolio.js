@@ -208,7 +208,7 @@ const bigProjects = {
   subtitle: "Projects undertaken during my under and post graduate",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      //image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Kubernetes-driven ML Workloads: Metrics for Optimization",
       descBullets: [
         "Researched on HW and SW based tools used to measure power consumption of client workloads.",
@@ -219,15 +219,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Cloud Computing Based Gravity Control Security System",
+      projectDesc: "In today's modern world, security plays an important role. Every person has precious accessories like gold, jewelry or cash. It is not enough to have these accessories, but security of this is very important, for this purpose we keep them in bank lockers. As people cannot always be near their belongings, a Raspberry Pi based weight monitoring  system which consists of a load cell is used to measure the weight placed on it. A standardized weight is pre-set to the load cell. The change in weight sensed by it is sent to the Raspberry Pi. The Raspberry Pi sends the information to a cloud service which is then retrieved by the android device as an alarm.",
     }
   ],
   display: true // Set false to hide this section, defaults to true
