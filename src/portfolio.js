@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ananth M Kashyap",
+  title: "Hi all, I'm Ananth",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A dedicated Cloud DevOps Engineer 🚀 with expertise in architecting and automating scalable infrastructure, leveraging tools like Docker, Kubernetes, Terraform, and CI/CD pipelines, and optimizing cloud environments for seamless deployment and performance."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,9 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/ananthmkashyap",
+  linkedin: "https://www.linkedin.com/in/ananth-m-kashyap-a1bbb2189/",
+  gmail: "ananth.m.kashyap@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -65,56 +61,40 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "Microsoft Azure",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "Amazon Web Services",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Terraform",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
+      skillName: "GitHub Actions", 
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "CICD",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Kubernetes",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
+      skillName: "Powershell",
       fontAwesomeClassname: "fab fa-swift"
     },
     {
-      skillName: "npm",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "Docker",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +106,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Universität Stuttgart",
+      logo: require("./assets/images/unistuttgart_logo.png"),
+      subHeader: "Master of Science in Information Technology",
+      duration: "October 2022 - Present",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Dr. Ambedkar Institute of Technology",
+      logo: require("./assets/images/dr.ait_logo.png"),
+      subHeader: "Bachelor of Technology in Electronics and Communication",
+      duration: "September 2016 - September 2020",
     }
   ]
 };
@@ -153,15 +126,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Infrastructure As Code (Terraform)", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "AMazon Web Services (AWS)",
+      progressPercentage: "60%"
     },
     {
-      Stack: "Programming",
+      Stack: "Microsoft Azure",
       progressPercentage: "60%"
     }
   ],
@@ -174,29 +147,48 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Master Thesis Student",
+      company: "Bosch Rexroth",
+      companylogo: require("./assets/images/Logo_of_Bosch_Rexroth_AG.png"),
+      date: "December 2024 – Present",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Title: Evaluating Cloud-Native Approaches for a Knowledge Synchronization System:A Comparative Analysis Across Various Cloud Deployment Types",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Cloud DevOps Engineer",
+      company: "Bosch Rexroth",
+      companylogo: require("./assets/images/Logo_of_Bosch_Rexroth_AG.png"),
+      date: "May 2024 – Nov 2024",
+      descBullets: [
+        "Automated the process of deploying architecture diagrams to confluence with GitHub Actions.",
+        "Developed a CI Pipeline to run Integration tests using GitHub Actions."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Cloud DevOps Engineer",
+      company: "ETAS",
+      companylogo: require("./assets/images/etas_logo.png"),
+      date: "Feb 2023 – Apr 2024",
+      descBullets: [
+        "EKS cluster provisioning on AWS using Terraform as IAC.",
+        "Responsible for implementing Karpenter, which is a solution for Cluster Autoscaler in AWS EKS.",
+        "Deployment of self-hosted Github Runner in conjunction with an EKS cluster to run workflows.",
+        "Created GHA workflow to run terraform repo's as part of automating CI/CD pipeline."
+      ]
+    },
+    {
+      role: "Site Reliabilty Engineer",
+      company: "Tata Consultancy Services",
+      companylogo: require("./assets/images/tcs_logo.png"),
+      date: "Jan 2019 – Sep 2022",
+      descBullets: [
+        "Migration of Cloud Infrastructure from Cloudformation to Terraform.",
+        "Creating infrastructure alerts using New-Relic.",
+        "Provisioned Servers and deployed features using Puppet.",
+        "Configured the New-Relic Infrastructure & APM for the .NET Application which is hosted on Windows Servers.",
+        "AMI Rotation for Windows Servers"
+      ]
     }
   ]
 };
@@ -212,19 +204,18 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Projects undertaken during my under and post graduate",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
+      projectName: "Kubernetes-driven ML Workloads: Metrics for Optimization",
+      descBullets: [
+        "Researched on HW and SW based tools used to measure power consumption of client workloads.",
+        "Elaborate research on Kubernetes Efficient Power Level Exporter (KEPLER) which uses e-BPF and ML models to estimate power consumption at K8s pod/container level.",
+        "Implemented Kepler on GPU accelerated Minikube K8s Cluster having access to NVIDIA GPU.",
+        "Trained CNN and Siamese Network models on the cluster and analyzed power metrics exported by Kepler using Grafana.",
+        "Patterns in power consumption metrics of the ML models were studied in order to decrease the power consumption of the workload."
       ]
     },
     {
@@ -302,7 +293,7 @@ const achievementSection = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
+/*
 // Blogs Section
 
 const blogSection = {
@@ -358,7 +349,7 @@ const podcastSection = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
+*/
 // Resume Section
 const resumeSection = {
   title: "Resume",
@@ -372,17 +363,17 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  //number: "+92-0000000000",
+  email_address: "ananth.m.kashyap@gmail.com"
 };
 
 // Twitter Section
-
+/*
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
-
+*/
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
