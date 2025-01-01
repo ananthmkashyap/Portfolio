@@ -1,6 +1,6 @@
 # Credits
 
-This project is based on the DeveloperFolio template created by Saad Pasta. Thank yoou for creating such a user friendy tempolate for develpoers.
+This project is based on the DeveloperFolio template created by Saad Pasta. Thank yoou for creating such a user friendy template for developers.
 
 This repository is a forked and customized version of the original repo [DeveloperFolio](https://github.com/saadpasta/developerFolio) by [Saad Pasta](https://github.com/saadpasta)
 
