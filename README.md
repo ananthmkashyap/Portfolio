@@ -1,3 +1,9 @@
+# Credits
+
+This project is based on the DeveloperFolio template created by Saad Pasta. Thank yoou for creating such a user friendy tempolate for develpoers.
+
+This repository is a forked and customized version of the original repo [DeveloperFolio](https://github.com/saadpasta/developerFolio) by [Saad Pasta](https://github.com/saadpasta)
+
 # Software Developer Folio ⚡️ [![GitHub](https://img.shields.io/github/license/saadpasta/developer-portfolio?color=blue)](https://github.com/saadpasta/developerFolio/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/saadpasta/developerFolio)](https://github.com/saadpasta/developerFolio/stargazers)  [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 ## A clean, beautiful and responsive portfolio template for Developers!
