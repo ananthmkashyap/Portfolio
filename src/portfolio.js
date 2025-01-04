@@ -189,7 +189,7 @@ const workExperiences = {
       role: "Site Reliabilty Engineer",
       company: "Tata Consultancy Services",
       companylogo: require("./assets/images/tcs_logo.png"),
-      date: "Jan 2019 – Sep 2022",
+      date: "Jan 2021 – Sep 2022",
       descBullets: [
         "Migration of Cloud Infrastructure from Cloudformation to Terraform.",
         "Creating infrastructure alerts using New-Relic.",
